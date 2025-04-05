@@ -1,0 +1,83 @@
+<HTML>
+
+<HEAD>
+<META NAME="robots" CONTENT="INDEX,FOLLOW">
+<TITLE>Stellar SEDs for MICE</TITLE>
+<LINK REL="stylesheet" TYPE="text/css" HREF="mystyle.css">
+</HEAD>
+
+<BODY BACKGROUND="./pics/bg.jpg" TEXT="#000000" LINK="#000000" VLINK="#000000" ALINK="#000000">
+<CENTER>[ <A HREF="index.html">home</A> | <A HREF="research.html">research</A>
+        | <A HREF="personal.html">personal</A> | <A HREF="resume.html">resume</A>
+        | <A HREF="links.html">links</A> ]</CENTER>
+
+
+<BR>
+
+<CENTER>
+<H2>Stellar SEDs for MICE</H2>
+</CENTER>
+
+There are currently five sets of MICE input stellar SEDs available. You may wish to 
+install all of them.
+<BR><BR>
+
+<H3>Kurucz SEDs</H3>
+These are the
+<A HREF="http://esoads.eso.org/cgi-bin/nph-bib_query?1994KurCD..19.....K">Kurucz
+stellar models of 1994</A>. For more information check Kurucz'
+<A HREF="http://cfaku5.harvard.edu/">personal homepage</A>.<BR>
+Unzip and un-tar the Kurucz <A HREF="./mice/kurucz.seds.tar.gz">SED
+package</A> in a newly created <B>kurucz</B> subdirectory of directory
+<B>seds</B>. Change the path in file <B>mice_file_table.pro</B> accordingly.
+
+<H3>COSTAR SEDs</H3>
+These are the stellar models of Schaerer &amp; de Koter (1996)
+[ <A HREF="http://adsbit.harvard.edu/cgi-bin/nph-iarticle_query?printprefs=0x00&xsize=0.00&ysize=0.00&bibcode=1996A%26A...310..837S">
+Schaerer et al. (1996a)</A>
+ | <A HREF="http://adsbit.harvard.edu/cgi-bin/nph-iarticle_query?printprefs=0x00&xsize=0.00&ysize=0.00&bibcode=1996A%26A...312..475S">
+Schaerer et al. (1996b)</A> ].<BR>
+Unzip and un-tar the COSTAR <A HREF="./mice/costar.seds.tar.gz">SED package</A>
+in a newly created <B>schaerer</B> subdirectory of directory
+<B>seds</B>. Change the path in file <B>mice_file_table.pro</B> accordingly.
+
+
+<H3>Pauldrach-1997 SEDs</H3>
+These are the hot star (25,000-70,000 K) models of 
+<A HREF="http://www.usm.uni-muenchen.de/people/adi/adi.html">Pauldrach</A>,
+computed in 1997-1998 
+[<A HREF="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=1998phls.conf..258P&db_key=AST&high=3c062c8cd502992">Pauldrach et al. (1998)</A>].
+Unzip and un-tar the Pauldrach-1997
+<A HREF="./mice/pauldrach1997.seds.tar.gz">SED package</A>
+in a newly created <B>pauldrach1997</B> subdirectory of directory
+<B>seds</B>. Change the path in file <B>mice_file_table.pro</B> accordingly.
+
+
+<H3>Pauldrach-2000 SEDs</H3>
+These are the hot star (25,000-55,000 K) models of 
+<A HREF="http://www.usm.uni-muenchen.de/people/adi/adi.html">Pauldrach</A>,
+computed in 1999-2000 
+[<A HREF="http://esoads.eso.org/cgi-bin/nph-bib_query?bibcode=2001A%26A...375..161P&db_key=AST&high=3c062c8cd502918">Pauldrach et al. (2001)</A>].
+Unzip and un-tar the Pauldrach-2000
+<A HREF="./mice/pauldrach2000.seds.tar.gz">SED package</A>
+in a newly created <B>pauldrach2000</B> subdirectory of directory
+<B>seds</B>. Change the path in file <B>mice_file_table.pro</B> accordingly.
+
+
+
+<H3>Hybrid SEDs (=Pauldrach-1997 & Kurucz)</H3>
+This grid combines the cool stellar models of Kurucz (<19,000K) with
+the hot stellar models of Pauldrach (>25,000K) computed in 1997-1998. 
+The models for the range 19,500-24500K have been interpolated from the 
+19,000K Kurucz models and the 25,000K Pauldrach models. Details as to the 
+interpolation method can be found <A HREF="./mice/polation.ps.gz">here</A>.
+<BR>
+Unzip and un-tar the Hybrid <A HREF="./mice/hybrid.seds.tar.gz">SED package</A>
+in a newly created <B>hybrid</B> subdirectory of directory <B>seds</B>. Change 
+the path in file <B>mice_file_table.pro</B> accordingly.
+
+
+</BODY>
+</HTML>
+
+
