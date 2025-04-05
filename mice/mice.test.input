@@ -1,0 +1,6 @@
+Internal TABLE STAR KURUCZ 39000
+***************
+***************
+HDEN 2
+IONIZATION -1.5
+STOP TEMPERATURE 100 LINEAR KELVIN
